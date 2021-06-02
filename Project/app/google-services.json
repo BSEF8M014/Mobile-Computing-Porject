@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "34325384540",
+    "firebase_url": "https://project-auditing-book.firebaseio.com",
+    "project_id": "project-auditing-book",
+    "storage_bucket": "project-auditing-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34325384540:android:61fd6a763d4522d4",
+        "android_client_info": {
+          "package_name": "learnhubstudio.auditing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34325384540-p849q4e9lr80at40qfbha086fri2o7es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "learnhubstudio.auditing",
+            "certificate_hash": "f29f40de81b1e28dde3b5c18c8db71ae913d1377"
+          }
+        },
+        {
+          "client_id": "34325384540-sevs770j1q4hd5055es1pp617hmi47k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnDE8dOM-Y86IGYvRXOUqQn_wfQqLiMHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34325384540-sevs770j1q4hd5055es1pp617hmi47k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
