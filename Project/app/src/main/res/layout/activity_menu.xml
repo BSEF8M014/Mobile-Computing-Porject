@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="learnhubstudio.auditing.menu">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id2"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnrate"
+        android:layout_below="@id/adViewm1"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-90dp">
+
+        <LinearLayout
+            android:id="@+id/layoutmenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="30dp">
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="190dp"
+                android:layout_height="61dp"
+                android:background="@drawable/menubtn"
+                android:fontFamily="cursive"
+                android:text="Book"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/mcq"
+                android:layout_width="190dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/menubtn"
+                android:fontFamily="cursive"
+                android:text="MCQS"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="190dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/menubtn"
+                android:fontFamily="cursive"
+                android:text="About App"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+            <Button
+                android:id="@+id/policy"
+                android:layout_width="190dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/menubtn"
+                android:fontFamily="cursive"
+                android:text="Privacy Policy"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="190dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/menubtn"
+                android:fontFamily="cursive"
+                android:onClick="ClickExit"
+                android:text="Exit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/adViewm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="cursive"
+        android:text="Powered By K Zee Designs"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnrate"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rate"
+        android:onClick="rateMe" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="510dp"
+        tools:layout_editor_absoluteX="32dp">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
