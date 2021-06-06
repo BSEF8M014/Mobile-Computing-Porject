@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Auditing</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-7220530792805172/8796438029</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-7220530792805172/2231029675</string>
+    <!--<string name="admob_interstitial_id">ca-app-pub-7220530792805172/9027796993</string>-->
+
+    //test
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="banner_ad_unit_id2">ca-app-pub-3940256099942544/6300978111</string>-->
+
+
+    <string name="title_About_The_App">About The App</string>
+    <string name="title_This_App_is_Only_For_Study_purpose">This App is Only For Study purpose. Any thing you want in this app please send me on Whatsapp.</string>
+    <string name="title_Feed">Give us FeedBack and your opinion about the  APP.</string>
+    <string name="title_Contact">If you wana give any suggestion about the APP contact us. I appreciate you opinion.</string>
+    <string name="title_Wp">Whatsapp</string>
+    <string name="title_No">(+92)3322253600</string>
+    <string name="title_Email">umair.nawaz1997@gmail.com</string>
+    <string name="notifications_admin_channel_name" >this notification by admin</string>
+    <string name="notifications_admin_channel_description" >Learn Hub Studio</string>
+</resources>
